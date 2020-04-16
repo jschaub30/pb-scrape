@@ -12,7 +12,7 @@ def send_to_gmail(subject, text):
     ''' Send email from test account '''
     port = 465  # For SSL
     load_dotenv()
-    password = os.environ['TEST_GM_PW']
+    password = os.environ['SENDER_PW']
     sender_email = os.environ['SENDER_EMAIL']
     receiver_email = os.environ['RECEIVER_EMAIL']
 

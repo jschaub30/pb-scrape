@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-source /Users/e634038/miniconda3/bin/activate pb-scrape
-python pb.py
+/usr/local/bin/docker run --shm-size 2g --rm --name pb-scraper pb-scraper
