@@ -1,4 +1,5 @@
 FROM ubuntu
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN mkdir /code
 WORKDIR /code

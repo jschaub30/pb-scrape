@@ -14,7 +14,7 @@ opts = Options()
 opts.headless = True
 browser = Firefox(options=opts)
 
-url = 'https://www.pbteen.com/products/sherpa-groovy-swivel-chair/'
+url = 'https://www.pbteen.com/products/sherpa-ivory-faux-fur-groovy-swivel-chair'
 browser.get(url)
 div = browser.find_elements_by_class_name('pip-summary')[0]
 results = div.find_elements_by_class_name('price-amount')
